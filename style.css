@@ -108,14 +108,22 @@ header.scrolled {
 .section1,
 .section2,
 .section3,
-.section4,
-.section5 {
+.section4 {
   min-height: 100svh; /* Full screen height without header impact */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 0 20px;
+}
+
+.section5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .section1 {
