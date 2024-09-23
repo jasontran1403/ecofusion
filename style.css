@@ -1,7 +1,8 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'DM Sans';
   max-width: 100svw;
   overflow-x: hidden;
+  font-size: 20px;
   margin: 0;
   padding: 0;
   color: #fff;
@@ -365,7 +366,7 @@ button {
     rgba(123, 226, 200, 1) 14.44%
   );
   padding: 10px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .ecosystem {
