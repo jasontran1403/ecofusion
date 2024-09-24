@@ -7,6 +7,7 @@ body {
   padding: 0;
   color: #fff;
   scroll-behavior: smooth;
+  background-color: black;
 }
 
 /* Header Styles */
@@ -25,16 +26,19 @@ header.transparent {
 }
 
 header.scrolled {
-  background-color: rgba(211, 211, 211, 0.8); /* Light grey transparent */
+  /* rgba(111, 108, 108, 0.8); */
+  background-color: rgba(111, 108, 108, 0.8);/* Light grey transparent */
 }
+
+
 
 .header-row1,
 .header-row2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 20%; /* 5% padding on the left */
-  padding-right: 20%; /* 5% padding on the right */
+  padding-left: 10%; /* 5% padding on the left */
+  padding-right: 10%; /* 5% padding on the right */
 }
 
 /* Divider line between rows */
@@ -138,23 +142,23 @@ header.scrolled {
 }
 
 .section2 {
-  background: url("/assets/bg-replace.jpg") no-repeat center center/cover;
+  background: url("/assets/bg-1.png") no-repeat center center/cover;
 }
 
 .section3 {
-  background: url("/assets/bg-replace.jpg") no-repeat center center/cover;
+  background: url("/assets/bg-2.png") no-repeat center center/cover;
 }
 
 .section4 {
-  background: url("/assets/bg-replace.jpg") no-repeat center center/cover;
+  background: url("/assets/bg-3.png") no-repeat center center/cover;
 }
 
 .section5 {
-  background: url("/assets/bg-replace.jpg") no-repeat center center/cover;
+  background: url("/assets/bg-footer.png") no-repeat center center/cover;
 }
 
 .banner-content {
-  width: 25svw;
+  width: 40svw;
 }
 
 .banner-content h1 {
