@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ECOFUSION</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/vendor.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="icon" href="images/logo_menu.png" type="image/png" sizes="16x16">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+      href="https://fonts.googleapis.com/css?family=DM Sans"
+      rel="stylesheet"
+    />    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  </head>
+  <body>
+    <div class="preloader-wrapper">
+      <div class="preloader">
+      </div>
+    </div>
+
+    <header class="transparent" id="main-header">
+      <div class="container-fluid">
+          <div class="d-flex py-3 justify-content-center justify-content-sm-between align-items-center gap-5">
+            <div class="col-sm-4 col-lg-3 text-center text-sm-start">
+              <div class="main-logo">
+                <a href="index.html" class="d-flex flex-row justify-content-center align-items-center gap-3">
+                  <img src="images/logo_menu.png" alt="logo" class="img-fluid" style="height: 40px; width: auto;">
+                  <p style="color: white; margin: 0; font-weight: bold; text-decoration: none;">ECOFUSION</p>
+                </a>
+                
+              </div>
+            </div>
+            <nav class="main-menu d-flex navbar navbar-expand-lg">
+              <button class="navbar-toggler" style="color: white!important;" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon" ></span>
+              </button>
+
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header justify-content-center">
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end menu-list list-unstyled d-flex gap-md-3 mb-0">
+                    <li class="nav-item active">
+                      <a href="#banner" class="nav-link" style="color: white!important;">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a href="#about" class="nav-link" style="color: white!important;">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#services" class="nav-link" style="color: white!important;">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#contact" class="nav-link" style="color: white!important;">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <button class="login">Login</button>
+                    </li>
+                  </ul>
+                
+                </div>
+
+              </div>
+              </nav>
+              <script>
+                // Close offcanvas menu when a nav link is clicked
+                document.querySelectorAll('.offcanvas-body .nav-link').forEach(link => {
+                  link.addEventListener('click', function() {
+                    const offcanvasElement = document.getElementById('offcanvasNavbar');
+                    const offcanvas = bootstrap.Offcanvas.getInstance(offcanvasElement);
+                    offcanvas.hide();
+                  });
+                });
+              </script>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <section id="banner" class="py-3" style="background-image: url('images/banner.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center; background-attachment: fixed; width: 100vw; height: 100svh;">
+      <div class="container-fluid h-100">
+        <div class="row h-100">
+          <div class="col-md-12 h-100 d-flex justify-content-center align-items-center">
+            <div class="banner-blocks">
+              <div class="banner-ad block-2">
+                <div class="row banner-content p-5">
+                  <div class="content-wrapper text-white col-md-7">
+                    <h3 class="banner-title animate__animated animate__bounceIn">Carbon credits NFT marketplace development</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- / Banner Blocks -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="overflow-hidden" style=" background: rgb(213,238,113);
+      background: linear-gradient(0deg, rgba(213,238,113,1) 4%, rgba(123,226,200,1) 39%, rgba(123,226,200,1) 62%, rgba(123,226,225,0.9640056706276261) 85%); ">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="category-carousel swiper">
+              <div class="swiper-wrapper">
+                <a href="#" class="nav-link category-item swiper-slide">
+                  <img src="images/icon-vegetables-broccoli.png" alt="Category Thumbnail">
+                  <h3 class="category-title">Logo 1</h3>
+                </a>
+                <a href="#" class="nav-link category-item swiper-slide">
+                  <img src="images/icon-bread-baguette.png" alt="Category Thumbnail">
+                  <h3 class="category-title">Logo 2</h3>
+                </a>
+                <a href="#" class="nav-link category-item swiper-slide">
+                  <img src="images/icon-soft-drinks-bottle.png" alt="Category Thumbnail">
+                  <h3 class="category-title">Logo 3</h3>
+                </a>
+                <a href="#" class="nav-link category-item swiper-slide">
+                  <img src="images/icon-wine-glass-bottle.png" alt="Category Thumbnail">
+                  <h3 class="category-title">Logo 4</h3>
+                </a>
+                <a href="#" class="nav-link category-item swiper-slide">
+                  <img src="images/icon-animal-products-drumsticks.png" alt="Category Thumbnail">
+                  <h3 class="category-title">Logo 5</h3>
+                </a>
+                <a href="#" class="nav-link category-item swiper-slide">
+                  <img src="images/icon-animal-products-drumsticks.png" alt="Category Thumbnail">
+                  <h3 class="category-title">Logo 6</h3>
+                </a>
+                <a href="#" class="nav-link category-item swiper-slide">
+                  <img src="images/icon-animal-products-drumsticks.png" alt="Category Thumbnail">
+                  <h3 class="category-title">Logo 7</h3>
+                </a>
+                <a href="#" class="nav-link category-item swiper-slide">
+                  <img src="images/icon-animal-products-drumsticks.png" alt="Category Thumbnail">
+                  <h3 class="category-title">Logo 8</h3>
+                </a>
+                <a href="#" class="nav-link category-item swiper-slide">
+                  <img src="images/icon-animal-products-drumsticks.png" alt="Category Thumbnail">
+                  <h3 class="category-title">Logo 9</h3>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-5 mb-3 overflow-hidden" style="background-image: url('images/bg-section-2.png'); background-repeat: no-repeat; background-size: cover; background-position: center; background-attachment: fixed; width: 100vw; min-height: 100svh;">
+      <div class="container-fluid" style="padding-top: 100px; padding-bottom: 100px;">
+        <div class="row" style="padding-top: 100px; padding-bottom: 100px;">
+          <div class="col-md-4 animate__animated animate__backInDown">
+            <div class="banner-ad ">
+              <div class="banner-content">
+                <div class="categories text-primary fs-3 fw-bold mb-3" style="line-height: 30px!important;">A reputatable team and a solid development</div>
+                <h5 class="section-title mb-5" style="color: white!important; font-size: 24px;">Our blockchain coin project offers a decentralized finalcial platform with a reputable team and a solid roadmap, ensuring sale, fast, and cost-effective transaction</h5>
+                <p style="color: white !important;">6+ Diverse ecosystem
+                </p>
+                <p style="color: white !important;">
+                  10,000+
+                  Project member
+                </p>
+                <p style="color: white !important;">
+                  99.9%
+                  Project roadmap
+                </p>
+              </div>
+            
+            </div>
+          </div>
+          <div class="col-md-4 animate__animated animate__backInDown animate__delay-1s">
+            <div class="banner-ad" >
+              <div class="banner-content">
+                <img src="images/section2.jpg"/>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 animate__animated animate__backInDown animate__delay-2s">
+            <div class="banner-ad">
+              <div class="banner-content mb-3">
+                <h3 class="banner-title">What is X-Coin?</h3>
+                <p style="color: white !important;">The X-Defence Project is the leading global project on the enviroment. The project is created and run by x-defence Team. We are collection of experts in economics, finance, enviroment, and combating climate change. </p>
+                <button class="login">Buy now</button>
+
+              </div>
+            
+            </div>
+          </div>
+        </div>
+        <div class="row" style="padding-top: 100px; padding-bottom: 100px;">
+          <div class="col-md-4 animate__animated animate__heartBeat">
+            <div class="banner-ad mb-3">
+              <div class="banner-content">
+                <h3 class="banner-title">Our future vision ecofusion</h3>
+                <div class="banner-sub-content glass-effect ">
+                  <p style="color: white!important;">Vision</p>
+                  <p style="color: white!important;">Organize a network of international young climate leaders empowered to equitably address the climate crisis by bridging knowledge with action and sharing their climate solutions on the international stage</p>
+                </div>
+                <div class="banner-sub-content glass-effect mt-3 ">
+                  <p style="color: white!important;">Mission</p>
+                  <p style="color: white!important;">Build a new human capabilities to better adapt to combating climate change. Creating a perfect new life, including community awareness and action education, health and medicine, as well as a solid personal financial foundation.</p>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+          <div class="col-md-8 animate__animated animate__heartBeat animate__delay-1s">
+            <div class="banner-ad" >
+              <div class="banner-content">
+                <img src="images/section2-2.png" class="responsive-img" alt="section image"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    <section class="py-5 mb-3 overflow-hidden" style="background-image: url('images/bg-section-3.png'); background-repeat: no-repeat; background-size: cover; background-position: center; background-attachment: fixed; width: 100vw; min-height: 100svh;">
+      <div class="container-fluid">
+        <div class="row px-4 px-md-5">
+          <div class="section-header d-flex flex-column flex-md-row align-items-center justify-content-between my-5">
+            <div class="mb-3 mb-md-0">
+              <h2 style="color: white!important;" class="banner-title">Ecosystem</h2>
+              <h3 style="color: white!important;" class="banner-title">OUR ECOSYSTEM CURRENTLY</h3>
+            </div>
+            <div class="col-10 col-md-6 col-lg-4" style="color: white!important;">
+              <h5 style="color: white!important; border: 1px solid aqua; padding: 20px;" class="eco-title">
+                Our ecosystem combines diverse services and products. Creating a mutually supportive environment that promotes sustainable development and innovation within the community.
+              </h5>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="row d-flex flex-row justify-content-center">
+          <div class="col-md-3 mx-3 my-3 glass-effect">
+            <article class="post-item card border-0 shadow-sm p-3">
+              <div class="card-body">
+                <div class="post-header">
+                  <h3 class="post-title">
+                    <p style="color: white!important;">Smart Wallet</p>
+                  </h3>
+                  <p style="color: white!important;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sint impedit enim dolorem dolorum numquam, ipsam facere! Quidem a laudantium laboriosam minus totam, tempore eum saepe inventore aspernatur dolore eaque. </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-3 mx-3 my-3 glass-effect">
+            <article class="post-item card border-0 shadow-sm p-3">
+              <div class="card-body">
+                <div class="post-header">
+                  <h3 class="post-title">
+                    <p style="color: white!important;">Play to earn (P2E)</p>
+                  </h3>
+                  <p style="color: white!important;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sint impedit enim dolorem dolorum numquam, ipsam facere! Quidem a laudantium laboriosam minus totam, tempore eum saepe inventore aspernatur dolore eaque. </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-3 mx-3 my-3 glass-effect">
+            <article class="post-item card border-0 shadow-sm p-3">
+              <div class="card-body">
+                <div class="post-header">
+                  <h3 class="post-title">
+                    <p style="color: white!important;">Visa XCoin</p>
+
+                  </h3>
+                  <p style="color: white!important;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sint impedit enim dolorem dolorum numquam, ipsam facere! Quidem a laudantium laboriosam minus totam, tempore eum saepe inventore aspernatur dolore eaque. </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="row d-flex flex-row justify-content-center">
+          <div class="col-md-3 mx-3 my-3 glass-effect">
+            <article class="post-item card border-0 shadow-sm p-3">
+              <div class="card-body">
+                <div class="post-header">
+                  <h3 class="post-title">
+                    <p style="color: white!important;">Social to earn (S2E)</p>
+
+                  </h3>
+                  <p style="color: white!important;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sint impedit enim dolorem dolorum numquam, ipsam facere! Quidem a laudantium laboriosam minus totam, tempore eum saepe inventore aspernatur dolore eaque. </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-3 mx-3 my-3 glass-effect">
+            <article class="post-item card border-0 shadow-sm p-3">
+              <div class="card-body">
+                <div class="post-header">
+                  <h3 class="post-title">
+                    <p style="color: white!important;">Move to earn (M2E)</p>
+
+                  </h3>
+                  <p style="color: white!important;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sint impedit enim dolorem dolorum numquam, ipsam facere! Quidem a laudantium laboriosam minus totam, tempore eum saepe inventore aspernatur dolore eaque. </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-3 mx-3 my-3 glass-effect">
+            <article class="post-item card border-0 shadow-sm p-3">
+              <div class="card-body">
+                <div class="post-header">
+                  <h3 class="post-title">
+                    <p style="color: white!important;">Decentralized carbon credit exchange</p>
+
+                  </h3>
+                  <p style="color: white!important;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sint impedit enim dolorem dolorum numquam, ipsam facere! Quidem a laudantium laboriosam minus totam, tempore eum saepe inventore aspernatur dolore eaque. </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="py-5 mb-3 overflow-hidden" style="background-image: url('images/bg-section-4.png'); background-repeat: no-repeat; background-size: cover; background-position: center; background-attachment: fixed; width: 100vw; min-height: 100svh;">
+      <div class="container-fluid">
+
+        <div class="py-5 rounded-5" style="background-image: url('images/bg-pattern-2.png') no-repeat;">
+          <div class="container">
+            <div class="row text-center text-md-start">
+              <div class="col-md-8 mb-4">
+                <h2 class="my-5" style="color: white!important;">ECOFUSION</h2>
+                <p style="color: white!important;">TOKEN</p>
+                <div class="d-flex flex-column gap-2 flex-wrap">
+                  <p style="color: white!important;">Token: XCOIN</p>          
+                  <p style="color: white!important;">Blockchain: BEP20</p>     
+                  <p style="color: white!important;">Tổng cung: 21.000.000 XCOIN</p>
+                  <p style="color: white!important;">Giá hiện tại: 0.1 USD</p>
+                </div>
+                <button class="login">Buy now</button>
+              </div>
+              <div class="col-md-4">
+                <img src="images/coin.png" alt="coin" class="img-fluid">
+              </div>
+            </div>
+            
+
+            <div class="row mt-5">
+              <div class="col-md-12 mb-3">
+                  <div class="card-body text-center">
+                    <div class="post-header">
+                      <p style="color: white!important; font-size: 30px; ">WHAT WE DO</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-12 mb-3 glass-effect">
+                <article class="post-item card border-0 shadow-sm p-3">
+                  <div class="row align-items-center">
+                    <!-- Left Image Column -->
+                    <div class="col-md-4">
+                      <img src="images/coin-description-1.jpg" alt="X-Social" class="img-fluid">
+                    </div>
+                    <!-- Right Content Column -->
+                    <div class="col-md-8 d-flex flex-column justify-content-center">
+                      <div class="card-body">
+                        <div class="post-header">
+                          <h3 style="color: white!important;" class="post-title">
+                            Dominating X-Social Market Share
+                          </h3>
+                          <p style="color: white!important;" >Formerly the social network Twitter, X has now transformed into a powerful social media network, especially oriented towards the environment as well as finance. Furthermore, platform X has allowed monetized content to appear.</p>
+                          <button class="login">Read more</button>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="col-md-12 mb-3 glass-effect">
+                <article class="post-item card border-0 shadow-sm p-3">
+                  <div class="row align-items-center">
+                    <!-- Left Image Column -->
+                    <div class="col-md-4">
+                      <img src="images/coin-description-2.jpg" alt="X-Social" class="img-fluid">
+                    </div>
+                    <!-- Right Content Column -->
+                    <div class="col-md-8 d-flex flex-column justify-content-center">
+                      <div class="card-body">
+                        <div class="post-header">
+                          <h3 style="color: white!important;" class="post-title">
+                            Blockchain Solutions
+                          </h3>
+                          <p style="color: white!important;">Blockchain is a technological breakthrough for humanity.</p>
+                          <p style="color: white!important;">X-Defence cannot stand aside from this either. We also have a team to research and apply blockchain to the project.</p>
+                          <button class="login">Read more</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+
+              <div class="col-md-12 mb-3 glass-effect">
+                <article class="post-item card border-0 shadow-sm p-3">
+                  <div class="row align-items-center">
+                    <!-- Left Image Column -->
+                    <div class="col-md-4">
+                      <img src="images/coin-description-3.jpg" alt="X-Social" class="img-fluid">
+                    </div>
+                    <!-- Right Content Column -->
+                    <div class="col-md-8 d-flex flex-column justify-content-center">
+                      <div class="card-body">
+                        <div class="post-header">
+                          <h3 style="color: white!important;" class="post-title">
+                            Carbon Credits
+                          </h3>
+                          <p style="color: white!important;">The Kyoto Protocol to combat climate change was adopted by the United Nations in 1997, laying the foundation for the fight against climate change on an international scale.</p>
+                          <p style="color: white!important;">In 2015, the United Nations Framework Convention on Climate Change (UNFCCC) outlined a roadmap to</p>
+
+                          <button class="login">Read more</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section id="contact" class="py-5 mb-3 overflow-hidden" style="background-image: url('images/bg-section-5.png'); background-repeat: no-repeat; background-size: cover; background-position: center; background-attachment: fixed; width: 100vw; min-height: 20svh;">
+      <div class="container-fluid d-flex flex-column justify-content-center align-items-center" style="min-height: 100%;">
+        <div class="row mt-5 w-100">
+          <!-- Logo Section -->
+          <div class="col-md-12 mb-3 text-center">
+            <div class="card-body">
+              <div class="post-header">
+                <img src="images/logo_ft.png" alt="X-Social" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <!-- Title and Social Icons -->
+          <div class="col-md-12 mb-3 text-center">
+            <h3 class="post-title" style="color: white!important; max-width: 50svw; margin: 0 auto;">
+                We are the best Carbon Credits NFT Marketplace Development Company offers top-notch marketplace development solutions to trade CO2 as NFT
+            </h3>
+            <!-- Social Icons -->
+            <div class="social mt-3" style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+                <a href="#"><i class="fa-brands fa-facebook" style="font-size: 22px; color: white!important;"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter" style="font-size: 22px; color: white!important;"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram" style="font-size: 22px; color: white!important;"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter" style="font-size: 22px; color: white!important;"></i></a>
+            </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    
+    <div id="footer-bottom">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 copyright">
+            <p>© 2024 Ecofusion. All rights reserved.</p>
+          </div>
+          <div class="col-md-6 credit-link text-start text-md-end">
+            <p>Designed by X Coin Team</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
