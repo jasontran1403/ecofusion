@@ -129,6 +129,8 @@ body {
   --bs-danger-rgb: 249, 235, 231;
   --bs-warning-rgb: 255, 249, 235;
   --bs-info-rgb: 230, 243, 250;
+  padding: 0;
+  margin: 0;
 }
 .btn-primary {
   --bs-btn-color: #fff;
@@ -665,6 +667,7 @@ color: white; }
 
 @media screen and (max-width: 991px) {
   /* offcanvas menu */
+  
   .offcanvas-body .nav-item {
     font-weight: 700;
     border-bottom: 1px solid #d1d1d1;
